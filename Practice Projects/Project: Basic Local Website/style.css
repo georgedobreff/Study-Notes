@@ -1,0 +1,38 @@
+
+body{
+    font-family: Helvetica;
+}
+
+header {
+    background-image: url("./Resources/pattern.webp");
+    display: fixed;
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+
+/* Styling the price on the same line to match the project requirements */
+.price{
+    font-weight: bold;
+    color: blue;
+}
+
+.item h1{
+   font-size: 32px;
+   font-weight: bold;
+   color: white;
+}
+
+/* Backgrounds for the item headings */
+#brushes{
+    background-color: mediumspringgreen;
+}
+#frames {
+    background-color: lightcoral;
+}
+#paint {
+    background-color: skyblue;
+}
