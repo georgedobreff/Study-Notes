@@ -15,7 +15,7 @@ header {
 }
 
 /* Styling the price on the same line to match the project requirements */
-.price{
+span{
     font-weight: bold;
     color: blue;
 }
