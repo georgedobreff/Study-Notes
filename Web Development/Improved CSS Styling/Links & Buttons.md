@@ -55,15 +55,46 @@ This ensures that the rules <a href="https://developer.mozilla.org/en-US/docs/Le
 
 # Skeuomorphism and Flat Design
 
-Buttons. This is about buttons.
 The concept of UI elements that replicate or imitate real-life counterparts is known as skeuomorphism. They have an old-school 3D effect.
 
 Flat is flat. It's just a box with rounded corners and text.
 
-This is also the introduction of the <button> HTML element because for some reason Codecademy thinks I need to learn this 30 lessons after the HTML elements lesson. This element comes with default styles that give it the button look - *border* and *background-color*.
+The <button> element comes with default styles that give it the button look - *border* and *background-color*.
 
-## Skeuomorphic styling
+## Buttons: Skeuomorphic styling
 
 This design aims to imitate the appearance of a real-life button, often including a ‘raised’ appearance while the button is unpressed and a ‘pressed’ appearance when clicked.
 
+This can be implemented using images and css rules, however designing solely with CSS is preferred as it loads faster and modern CSS3 has support for 2D and 3D effects.
 
+Basic 3D button example with CSS only:
+
+```CSS
+button {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  margin-top: 5px;
+  color: black;
+  box-shadow: 0px 0px;
+}
+```
+
+## Buttons: Flat Design
+
+Flat design buttons commonly appear as rectangles, rounded rectangles, or circles. These shapes are used ubiquitously for button elements, so users often perceive them as buttons and expect them to be clickable.
+
+To make these we just create a *border* and add a *background-color*.
+
+## Buttons: Hover States
+
+Just as with links, buttons should make use of hover states and the cursor: pointer declaration. 
