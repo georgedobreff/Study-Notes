@@ -9,7 +9,10 @@ Therefore the repo structure will ***not*** perfectly match the course structure
 
 Some parts of my notes use wording that makes more sense to me, while others are the explanations as provided in the course. I try to add examples whenever possible but some concepts just don't need code examples or are too similar to something already noted.
 
-<img src="/banner.png" alt="Codecademy Career Path: Full-Stack Engineer" style="display: block; margin: 0 auto;">
+<br>
+<br>
+
+<img src="/banner.png" alt="Codecademy Career Path: Full-Stack Engineer">
 
 ## Curriculum:
 
