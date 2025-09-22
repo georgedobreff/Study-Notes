@@ -2,7 +2,6 @@
 ### <a href="https://www.codecademy.com/career-journey/full-stack-engineer" target="_blank">Course by Codecademy</a>
 
 I write my notes here as I progress through the career path.
-Initially, I started taking notes by hand so some of the first modules are still empty. I'll be copying these over whenever I have free time and I'm not studying.
 
 I've organized this with the intention of using it as a knowledgebase later on when I need a refresher.
 Therefore the repo structure will ***not*** perfectly match the course structure outlined below. In addition, I will be making changes as I go through the course.
@@ -12,7 +11,8 @@ Some parts of my notes use wording that makes more sense to me, while others are
 <br>
 <br>
 
-<img src="/banner.png" alt="Codecademy Career Path: Full-Stack Engineer">
+### Career Path
+# Full-Stack Engineer
 
 ## Curriculum:
 

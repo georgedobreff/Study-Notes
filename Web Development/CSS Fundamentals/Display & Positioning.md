@@ -160,4 +160,3 @@ Values can be:
     neither side of the element will touch any other element within the same containing element.
 * none 
     the element can touch either side.
-
