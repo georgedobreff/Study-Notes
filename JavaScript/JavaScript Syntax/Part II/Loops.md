@@ -188,3 +188,26 @@ for (let i = 0; i < 99; i++) {
 console.log('Orange you glad I broke out the loop!');
 ```
 With breaks, we can add test conditions besides the stopping condition, and exit the loop when they’re met.
+
+
+# for...of loop
+
+```JS
+const hobbies = ['singing', 'eating', 'quidditch', 'writing'];
+ 
+for (const hobby of hobbies) {
+  console.log(`I enjoy ${hobby}.`);
+}
+```
+
+for loops are great but the above is a more efficient way to achieve the same. instead of 
+```JS
+for (let i = 0; i < hobbies.length; i++) 
+```
+we just do
+```JS
+for (const hobby of hobbies)
+```
+hobby indicates each item in the array hobbies.
+
+This loop is not a replacement for the "for" loop, however when we simply need to iterate through all items in an array it comes in handy as its syntax is simpler.
