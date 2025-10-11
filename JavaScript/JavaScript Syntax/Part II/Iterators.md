@@ -152,5 +152,44 @@ If there isn’t a single element in the array that satisfies the condition in t
 
 ## The .reduce() Method
 
-This one is a bit different. It reduces the original array but outputs a single value.
+This one is a bit different. It reduces the original array to a single value.
 
+For example if we want to sum all numbers in an array:
+
+```JS
+const numbers = [1, 2, 4, 10];
+
+const summedNums = numbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue
+})
+
+console.log(summedNums) // Output: 17
+```
+
+### Let's break this down:
+
+* numbers is an array that contains numbers.
+* summedNums is a variable that stores the returned value of invoking .reduce() on numbers.
+* numbers.reduce() calls the .reduce() method on the numbers array and takes in a callback function as an argument.
+* The callback function has two parameters, accumulator and currentValue. The value of accumulator starts off as the value of the first element in the array, and the currentValue starts as the second element.
+* As .reduce() iterates through the array, the return value of the callback function becomes the accumulator value for the next iteration, currentValue takes on the value of the current element in the looping process.
+ 
+
+.reduce() is versatile and isn't just for summing. It can be used for things like finding the min or max value, flattening an array of arrays or even counting instances of items.
+
+The method can also take a second value which acts as the base value for the accumulator. For example if we want each item of the numbers array to be multiplied by 10 we can add 10 as the second value.
+We declare this after the callback function.
+
+{array.reduce}({callbackFunction}, {secondValue})
+
+To illustrate this here's the example from above but with a second value:
+
+```JS
+const numbers = [1, 2, 4, 10];
+
+const summedNums = numbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue
+}, 10)
+
+console.log(summedNums) // Output: 17
+```
