@@ -154,7 +154,7 @@ If there isn’t a single element in the array that satisfies the condition in t
 
 This one is a bit different. It reduces the original array to a single value.
 
-For example if we want to sum all numbers in an array:
+VFor example if we want to sum all numbers in an array:
 
 ```JS
 const numbers = [1, 2, 4, 10];
@@ -189,7 +189,10 @@ const numbers = [1, 2, 4, 10];
 
 const summedNums = numbers.reduce((accumulator, currentValue) => {
   return accumulator + currentValue
-}, 10)
+}, 10) // the second value (base value for accumulator)
 
-console.log(summedNums) // Output: 17
+console.log(summedNums)
 ```
+
+More iterative methods can be found <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#iterative_methods'>in the documentation.</a>
+
